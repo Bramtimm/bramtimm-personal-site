@@ -1,8 +1,12 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Home";
 ---
 
-<html>
-	<body>
+<BaseLayout>
+		<a href="/">Home</a>
+		<a href="/about/">About</a>
+		<a href="/blog/">Blog</a>
+
 		<h1>My Personal Site</h1>
-	</body>
-</html>
+</BaseLayout>
