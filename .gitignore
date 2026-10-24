@@ -1,2 +1,7 @@
 # node modules
 node_modules/
+
+# astro
+.astro/
+.env
+dist/
