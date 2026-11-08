@@ -1,12 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Navigation from '../components/Navigation.astro';
+
 const pageTitle = "Home";
 ---
 
 <BaseLayout>
-		<a href="/">Home</a>
-		<a href="/about/">About</a>
-		<a href="/blog/">Blog</a>
-
+	<Navigation />
 		<h1>My Personal Site</h1>
 </BaseLayout>
